@@ -17,8 +17,7 @@
 
 	<property environment="env" />
 
-	<property name="catalina.home" value="c:/portal/apache-tomcat" /> 
-	<!-- <property name="catalina.home" value="c:/portal/jetty" /> -->
+	<property name="catalina.home" value="/opt/tomcat" />
 	
 	<condition property="mavenExecutableFile" value="mvn.bat" else="mvn">
 		<os family="windows" />
