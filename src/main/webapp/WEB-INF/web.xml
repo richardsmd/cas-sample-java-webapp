@@ -6,11 +6,11 @@
         <filter-class>org.jasig.cas.client.authentication.AuthenticationFilter</filter-class>
         <init-param>
             <param-name>casServerLoginUrl</param-name>
-            <param-value>https://devcas.pbworld.net/cas/login</param-value>
+            <param-value>https://stgclus.pbworld.net/cas/login</param-value>
         </init-param>
         <init-param>
             <param-name>serverName</param-name>
-            <param-value>https://devcas.pbworld.net</param-value>
+            <param-value>https://YOUR_SERVER_NAME_HERE</param-value>
         </init-param>
     </filter>
 
@@ -22,11 +22,11 @@
             <param-name>casServerUrlPrefix</param-name>
             <!-- /cas/p3 will lead to full attribute resolution
                  /cas    will lead to NO attribute resolution, but will authenticate -->
-            <param-value>https://devcas.pbworld.net/cas/p3</param-value>
+            <param-value>https://stgclus.pbworld.net/cas/p3</param-value>
         </init-param>
         <init-param>
             <param-name>serverName</param-name>
-            <param-value>https://devcas.pbworld.net</param-value>
+            <param-value>https://YOUR_SERVER_NAME_HERE</param-value>
         </init-param>
         <!-- Optional parameters -->
 <!--
